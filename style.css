@@ -1,0 +1,56 @@
+h1 {
+    font-size: 3em;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+body {
+    background: linear-gradient(180deg,#c09088, #484b44);
+    height: 100vh;
+}
+
+.block {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    width: min(70%, 500px);
+}
+
+#contents {
+    margin-top: 2rem;
+    height: auto;
+    border: 1px solid black;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.473);
+}
+
+.recipe {
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.odinlogo {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    width: 30vh;
+    margin-top: 20px;
+}
+
+p {
+    display: block;
+    margin: auto;
+    font-family: helvetica;
+    font-size: 15px;
+    width: 21vh;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid black;   
+}
